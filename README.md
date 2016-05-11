@@ -18,6 +18,9 @@ The directory /scripts contain the testing queries performed during evaluation t
 The directory /diagrams contain visual data on cluster architecture and server architecture, as described on final report.
 
 **data modelling**
-The file genome.tsv is the raw genome file.
-The file gen.csv is the result of mining on genome.tsv. This is the file imported to Cassandra.
+The files exceed any public repository service limit, so here are their external links.
+The file genome.tsv is the raw genome file. 
+
+
+The file gen.csv is the result of mining on genome.tsv. This is the file imported to Cassandra. https://www.dropbox.com/s/0ts12bfsr4osl0u/gen.csv?dl=0
 
