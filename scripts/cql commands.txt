@@ -1,0 +1,20 @@
+CREATE KEYSPACE GENOME
+WITH REPLICATION = {'CLASS':'SIMPLESTRATEGY', 'REPLICATION_FACTOR' : 3}; 
+
+CREATE ColumnFamily Specimen(
+locus varchar PRIMARY KEY,
+ploidy varchar,
+allele varchar,
+chromosome varchar,
+begin int,
+end int,
+varType varchar,
+reference varchar,
+alleleSeq varchar,
+varScoreVAF varchar,
+varScoreEAF varchar,
+varQuality varchar,
+hapLink varchar,
+xRef varchar);
+
+copy Specimen (locus, ploidy, allele, chromosome, beginend, varType, reference, alleleSeq, varScoreVAF, varScoreEAF, varQuality, hapLink, xRef) from '../gen.csv' with HEADER = true;

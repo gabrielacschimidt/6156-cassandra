@@ -1,0 +1,15 @@
+http://www.divconq.com/2010/how-to-add-and-retrieve-data-from-a-cassandra-database/
+http://www.datastax.com/dev/blog/simple-data-importing-and-exporting-with-cassandra
+https://docs.datastax.com/en/datastax_enterprise/4.5/datastax_enterprise/spark/sparkImportTxtCQL.html
+
+cqlsh commands
+http://www.tutorialspoint.com/cassandra/cassandra_quick_guide.htm
+
+genomic data-from-a-cassandra-database/
+https://my.pgp-hms.org/public_genetic_data?utf8=%E2%9C%93&data_type=biometric+data+-+CSV+or+similar&commit=Search
+(https://my.pgp-hms.org/public_genetic_data)
+
+
+262mb genomic mapping of one individual > 1.42gb uncompacted file
+http://evidence.pgp-hms.org/genomes?display_genome_id=b9e23de67539a0360585040c02dae85ec921b387
+locus ploidy allele chromosome beginend varType reference alleleSeq varScoreVAF varScoreEAF varQuality hapLink xRef
